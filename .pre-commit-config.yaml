@@ -5,10 +5,9 @@ repos:
     - id: pyupgrade
       args: [--py310-plus]
 - repo: https://github.com/4Catalyzer/fourmat
-  rev: v1.0.0
+  rev: v2.0.2
   hooks:
     - id: fourmat
-      additional_dependencies: [setuptools>74]
 - repo: https://github.com/asottile/blacken-docs
   rev: 1.18.0
   hooks:

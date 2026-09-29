@@ -60,8 +60,8 @@ setup(
     install_requires=(
         # core deps
         "flask>=3.0.0,<4.0.0",
-        "flask-sqlalchemy~=3.0",
-        "sqlalchemy~=2.0.0",
+        "flask-sqlalchemy>=3.0,<4.0",
+        "sqlalchemy>=2.0.0,<3.0.0",
         # misc
         "marshmallow>=3.20.0",
         "werkzeug>=3.0",
